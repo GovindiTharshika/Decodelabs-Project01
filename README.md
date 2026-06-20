@@ -170,14 +170,3 @@ Run Lighthouse in Chrome DevTools → Inspect → Lighthouse tab to audit.
 
 ---
 
-## 👤 Author
-
-**Sudhanshu Prasad**  
-GitHub: https://github.com/GovindiTharshika 
-LinkedIn: www.linkedin.com/in/govindi-tharshika-edirisinha-377918200 
-Email: govindiedirisinghe@gmail.com  
-Website: https://govinditharshika.github.io/Decodelabs-Project01/
-
----
-
-If you'd like any phrasing changed or additional badges (license, CI, preview link), tell me and I'll update the README.md accordingly.
