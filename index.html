@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="MochaMousse Luxe — premium coffee engineering, ethically sourced beans, and artisan-crafted tools for your morning ritual." />
+    <meta name="theme-color" content="#F2F0EA" />
+    <title>MochaMousse Luxe | Premium Living</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- HEADER / NAV (60px) — Sticky, Flexbox -->
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#" class="nav-brand" aria-label="MochaMousse Luxe home">MochaMousse Luxe</a>
+
+        <nav class="nav-desktop" aria-label="Primary navigation">
+          <ul class="nav-links" role="list">
+            <li><a href="#">Shop</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <button aria-label="Cart" class="icon-btn" type="button">
+            <span class="material-symbols-outlined" aria-hidden="true">shopping_cart</span>
+          </button>
+          <button
+            id="menu-toggle"
+            class="nav-toggle"
+            type="button"
+            aria-label="Open menu"
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+          >
+            <span class="hamburger" aria-hidden="true">
+              <span class="hamburger-bar"></span>
+              <span class="hamburger-bar"></span>
+              <span class="hamburger-bar"></span>
+            </span>
+          </button>
+          <a class="btn primary nav-cta" href="#">Shop Now</a>
+        </div>
+      </div>
+
+      <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation" aria-hidden="true">
+        <a href="#">Shop</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+
+      <!-- HERO SECTION (360px) — CSS Grid, radial gradients -->
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <span class="label-pill">Premium Collection</span>
+            <h1 id="hero-heading" class="hero-title">Artisan Precision, Morning Perfection.</h1>
+            <p class="hero-lead">Experience the pinnacle of coffee engineering with the MochaMousse Luxe espresso series. Designed for those who treat every cup as a masterpiece.</p>
+            <div class="hero-actions">
+              <button class="btn primary" type="button">Discover the Luxe</button>
+              <button class="btn outline" type="button">Watch Film</button>
+            </div>
+          </div>
+          <div class="hero-media reveal">
+            <div class="media-frame">
+              <img
+                alt="A high-end espresso machine on a marble countertop"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCu78E_KEXPzFl6mTJtqswZUaPxD3x1oBSLS2mM1jphx-97HR0RE-vhmxP0mUi9MpR0CKqIBBDpkxINv83ix1-DB4rRbQEjIiK6uoxj2egFiCf1a6lfeaKkhH2ZrDJVGS40MKdq14BFVmQbGQkmaoj7W72JHCm5t1vw1xpjwLXUPwdJl9hOeF4JjZvUWf7XGkCVhp9cQMieewl8vfJgHoA20v3qK0hOkvoO9szUJqG3X4Kn3d61zB9_kZlqZl2xvpsg71fimIvyDNY"
+                width="640"
+                height="480"
+                fetchpriority="high"
+                decoding="async"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES GRID (3-col desktop) — CSS Grid, responsive -->
+      <section id="features" class="section features-section" aria-labelledby="features-heading">
+        <div class="container">
+          <div class="section-header reveal">
+            <div>
+              <h2 id="features-heading">Featured Artifacts</h2>
+              <p class="muted">Precision-crafted tools designed to elevate your daily ritual into a sensorial experience.</p>
+            </div>
+            <a class="view-all" href="#">View All Products <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+          </div>
+
+          <div class="features-grid">
+            <article class="feature-card reveal">
+              <div class="feature-media">
+                <img
+                  alt="Single Origin Mousse coffee beans packaging"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuB25dox8Hms8QKn6hf0t91MSNMV5KJ_tCml6hsAnXNKvl84eV7D5ftHULJnlNPvf4maJNfCrypXOkYHpujQNG3x_Ixmxy6fmrTUL5pZ5ijHSlqJd22AXRNn9oT_njRsS8TDdTkmVd0JaLaRD4hR5rpDDxR8N8Xo9TCP82ddL8cbHG1fLgIopu7pJ0FyHW2xFv2A8_Oq5c9minUCKr_tnc5GAg2H58pdAqmmggLb9hl1AcbkTsBGkHDbr3uVUilGslF75ai6AgRZavZo"
+                  width="400"
+                  height="260"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="badge">Limited</span>
+              </div>
+              <div class="feature-body">
+                <h3>Single Origin Mousse</h3>
+                <p class="muted">Notes of dark cocoa, toasted hazelnut, and silk.</p>
+                <div class="feature-footer">
+                  <span class="price">$32.00</span>
+                  <button class="icon-btn" type="button" aria-label="Add Single Origin Mousse to cart">
+                    <span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media">
+                <img
+                  alt="Vessel Nº 01 handmade ceramic mug"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZMG-77Xl8cmF6ubV39ywQGVoug9qpLycVPQEIKlbjGin1vGTRj4DvNJaNO7R2h8Ds-tUhPanDZVWtH6LeZHaXxP7LP40Ea9oi-IDcQm0IEsKIHfYB-1jusPbH99tuIqz0nvGtdOM-jzO-65wQWObmTlMRtvobiVPHlyMbm40-aY22JDXa5C1g5EPNyFm-6Q1Y9lEyoN5xp76OYeLGra1hJJyy5VtsKSna8uqXw0CN8PpiLqA2uskdSPDP-JvlcS4KyElNxGo4VSJ-"
+                  width="400"
+                  height="260"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="feature-body">
+                <h3>Vessel Nº 01</h3>
+                <p class="muted">Hand-glazed stoneware with thermal retention.</p>
+                <div class="feature-footer">
+                  <span class="price">$45.00</span>
+                  <button class="icon-btn" type="button" aria-label="Add Vessel Nº 01 to cart">
+                    <span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="feature-card reveal">
+              <div class="feature-media">
+                <img
+                  alt="Ether Precision Grinder in Ethereal Blue"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFuTehl19Vhv7jQ4qp7g_L6b3RxW3DMfwtSxCkgN9YStIWznffE5MSEVuUfI9_tUKuERGHVnGNRGLA1UHcOPOEqH-8N6ELSWveHcAZWMLyumEmoS4EyCg0hLBm-sf8NIbVbAyuyb35--WZYFCAykbma4Shecm61HwLa1AuNWs8Xy9CcQa4RFhaJgdREFtcXzJJ7JrD8wHvcqciIk0cGcd94Q1Y8FZjV7hPDs40ij5ZHP8ln6Yg-ed6xGYdlE_7kHUkYe9PKpy6MQbp"
+                  width="400"
+                  height="260"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="badge">Best Seller</span>
+              </div>
+              <div class="feature-body">
+                <h3>Ether Precision Grinder</h3>
+                <p class="muted">Stepless adjustment for the perfect extraction.</p>
+                <div class="feature-footer">
+                  <span class="price">$280.00</span>
+                  <button class="icon-btn" type="button" aria-label="Add Ether Precision Grinder to cart">
+                    <span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTENT GRID + SIDEBAR — Grid + Flexbox -->
+      <section id="about" class="section content-section" aria-labelledby="about-heading">
+        <div class="container content-layout">
+          <div class="content-grid">
+            <article class="content-card reveal">
+              <img
+                alt="Barista pouring latte art into a ceramic cup"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqSIDF64K-HlFUHD6DvBGNNwDtw52VckKbivbGjsudtcc1pr0Nuj6fp114sZq8f5lRO-WPKiK5nK8Im-FAc3tsldE_JjTTOaCGTMyQXQOG2SnMw4bPGoP5JDbxlukmMvyUh5C1UkcDRZHm3AnmYZwNfuVN5tr7zJjLRnHKfS_sU-ypCCS-pIjOrB-ICwEbHZz6B_25PckmdV2t0AdzCsSlwnD8Iiy-02OmEFDg9Y2v1OQrxRtXNtLWhOUL_grjn_wGIQMq2U_D8JbP"
+                width="800"
+                height="220"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="content-card-body">
+                <span class="label-pill">Journal</span>
+                <h3 id="about-heading">Our Philosophy is the Roast</h3>
+                <p class="muted">At MochaMousse Luxe, we believe coffee is more than caffeine—it is a temporal anchor. We source exclusively from high-altitude estates with sustainable practices.</p>
+                <a class="view-all" href="#">Read Story <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+              </div>
+            </article>
+
+            <article class="content-card reveal">
+              <div class="content-card-body">
+                <span class="label-pill">Sustainability</span>
+                <h3>Ethically Sourced, Carbon Neutral</h3>
+                <p class="muted">100% direct trade partnerships and completely plastic-free logistics across our supply chain.</p>
+                <div class="content-meta">
+                  <span>Direct Trade</span>
+                  <span>Zero Plastic</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="content-card reveal">
+              <div class="content-card-body">
+                <span class="label-pill">Craft</span>
+                <h3>Precision in Every Pour</h3>
+                <p class="muted">From bean selection to extraction temperature, every detail is engineered for morning perfection.</p>
+                <div class="content-meta">
+                  <span>Artisan Roasted</span>
+                  <span>Lab Tested</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <aside class="sidebar" aria-label="Sidebar widgets">
+            <div class="widget reveal">
+              <h4>Newsletter</h4>
+              <p class="muted small">Weekly brew guides and exclusive drops.</p>
+              <form class="widget-form" aria-label="Newsletter signup">
+                <label class="visually-hidden" for="newsletter-email">Email address</label>
+                <input id="newsletter-email" type="email" placeholder="Your email" autocomplete="email" required />
+                <button class="btn primary" type="submit">Subscribe</button>
+              </form>
+            </div>
+            <div class="widget reveal">
+              <h4>Popular Tags</h4>
+              <ul class="tag-list" role="list">
+                <li><a href="#">Espresso</a></li>
+                <li><a href="#">Single Origin</a></li>
+                <li><a href="#">Ceramics</a></li>
+                <li><a href="#">Grinders</a></li>
+              </ul>
+            </div>
+            <div class="widget reveal">
+              <h4>Store Hours</h4>
+              <ul class="hours-list" role="list">
+                <li><span>Mon – Fri</span><span>7am – 6pm</span></li>
+                <li><span>Saturday</span><span>8am – 5pm</span></li>
+                <li><span>Sunday</span><span>9am – 3pm</span></li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- ROADMAP (6 steps) — Timeline layout -->
+      <section id="roadmap" class="section roadmap" aria-labelledby="roadmap-heading">
+        <div class="container">
+          <div class="section-header reveal">
+            <div>
+              <h2 id="roadmap-heading">Our Journey</h2>
+              <p class="muted">Six milestones from bean to cup, crafted with intention at every step.</p>
+            </div>
+          </div>
+
+          <ol class="timeline">
+            <li class="timeline-step reveal">
+              <span class="step-number" aria-hidden="true">01</span>
+              <div class="step-content">
+                <h3>Source</h3>
+                <p class="muted">Partner with high-altitude estates for exceptional beans.</p>
+              </div>
+            </li>
+            <li class="timeline-step reveal">
+              <span class="step-number" aria-hidden="true">02</span>
+              <div class="step-content">
+                <h3>Roast</h3>
+                <p class="muted">Small-batch roasting profiles tuned for each origin.</p>
+              </div>
+            </li>
+            <li class="timeline-step reveal">
+              <span class="step-number" aria-hidden="true">03</span>
+              <div class="step-content">
+                <h3>Grind</h3>
+                <p class="muted">Precision grinding for optimal extraction every time.</p>
+              </div>
+            </li>
+            <li class="timeline-step reveal">
+              <span class="step-number" aria-hidden="true">04</span>
+              <div class="step-content">
+                <h3>Brew</h3>
+                <p class="muted">Temperature-controlled brewing for consistent flavor.</p>
+              </div>
+            </li>
+            <li class="timeline-step reveal">
+              <span class="step-number" aria-hidden="true">05</span>
+              <div class="step-content">
+                <h3>Serve</h3>
+                <p class="muted">Handcrafted vessels designed for thermal retention.</p>
+              </div>
+            </li>
+            <li class="timeline-step reveal">
+              <span class="step-number" aria-hidden="true">06</span>
+              <div class="step-content">
+                <h3>Savor</h3>
+                <p class="muted">Experience luxury in every drop of your morning ritual.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- CTA BANNER -->
+      <section id="contact" class="section cta-section" aria-labelledby="cta-heading">
+        <div class="container">
+          <div class="cta-banner reveal">
+            <div class="cta-content">
+              <h2 id="cta-heading">Ready to Elevate Your Morning?</h2>
+              <p class="muted">Join thousands who have transformed their daily ritual with MochaMousse Luxe.</p>
+            </div>
+            <div class="cta-actions">
+              <button class="btn primary" type="button">Shop the Collection</button>
+              <button class="btn outline" type="button">Book a Tasting</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER (4-col desktop) — Grid, 20px margin -->
+    <footer class="site-footer">
+      <div class="container footer-top">
+        <div class="footer-about">
+          <h3>MochaMousse Luxe</h3>
+          <p class="muted">Redefining the architecture of the morning through precision engineering and ethical sourcing. Experience luxury in every drop.</p>
+          <div class="social">
+            <a class="social-btn" href="#" aria-label="Visit our website"><span class="material-symbols-outlined" aria-hidden="true">public</span></a>
+            <a class="social-btn" href="#" aria-label="Share on social media"><span class="material-symbols-outlined" aria-hidden="true">share</span></a>
+            <a class="social-btn" href="mailto:hello@mochamousse.com" aria-label="Email us"><span class="material-symbols-outlined" aria-hidden="true">mail</span></a>
+          </div>
+        </div>
+        <nav class="footer-links-col" aria-label="Footer navigation">
+          <h4>Navigate</h4>
+          <ul role="list">
+            <li><a href="#">Shop All</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#">Wholesale</a></li>
+            <li><a href="#">Journal</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-links-col" aria-label="Footer support">
+          <h4>Support</h4>
+          <ul role="list">
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </nav>
+        <div class="footer-visit">
+          <h4>Visit Us</h4>
+          <address class="muted">88 Espresso Way,<br>Roaster's District, SF 94103</address>
+          <a class="directions" href="#">Get Directions <span class="material-symbols-outlined" aria-hidden="true">open_in_new</span></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <p class="muted">© 2026 MochaMousse Luxe. All rights reserved.</p>
+          <nav class="policy-links" aria-label="Legal links">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Cookies</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" aria-hidden="true">
+      <span class="material-symbols-outlined" aria-hidden="true">arrow_upward</span>
+    </button>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
